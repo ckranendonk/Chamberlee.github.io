@@ -1,0 +1,72 @@
+
+.roboto {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      
+  }
+  
+
+  img {
+    border-radius: 50%;
+     margin-right: 50px;
+  }
+header{
+    color: white; background-color: olive;
+    display: flex;justify-content: flex-start;
+    align-items: center;
+padding-left: 100px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+h1,h2,  {font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+}
+
+body{
+    background-color: wheat;
+
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+  }
+  a{
+    text-decoration: none;
+ }
+ .button a {
+    color: beige;
+ }
+footer{
+    color: deeppink; background-color:lightgrey;
+}
+
+.centered{
+    text-align: center;
+}
+.intro{
+    max-width: 500px;
+    text-align: left;
+    padding-left: 60px;
+   
+}
+
