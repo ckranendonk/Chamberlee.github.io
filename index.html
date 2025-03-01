@@ -16,41 +16,106 @@
 </head>
 <body>
     <header>
-        <img src="profilepic.jpg" alt="profile picture of Chamberlee DeGraaff" width="400">
+        <img src="profilepic.jpg" alt="profile picture of Chamberlee DeGraaff" width="300">
        
 
         <div class="intro">
             <h1 class="roboto-heading"> Hi, I'm Chamberlee DeGraaff</h1>
             <p>
-                It's optional, but you could write something brief about yourself and the job you want. For example: "A UI/UX
-         designer with an eye for detail and a love of usability." Or "An aspiring web developer.
+                I am a hightly motivated mother of four, always looking for new learning opportunities and growth. I am a great team player and understand the importance of delegation, having been involved in multiple leadership roles throughout my life. I also love to karaoke and be with my family.
             </p>
 
         </div>
       
     </header>
-
+     
+    <div id="greeting"></div>
 
 <section>
     <button type="button" class="button"><a href="contact.html">Contact Me</a></button>
 
 </section>
-    
-        <section>
-            <h2>about me</h2>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="family copy.jpg" style="width:50%">
+      <div class="text">My Family</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="sweetheart.jpg" style="width:50%">
+      <div class="text">My Husband, Bill</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="loren.jpg" style="width:50%">
+      <div class="text">My Oldest, Loren</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="ari.jpg" style="width:50%">
+        <div class="text">My Second, Ari</div>
+      </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="porter.jpg" style="width:50%">
+        <div class="text">My Third, Porter</div>
+      </div>
+
+     <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="holland.jpg" style="width:50%">
+        <div class="text">My Youngest, Holland</div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+ 
+  
+       
+  <section>
+     <h2>About me</h2>
             <p>
+                
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates recusandae praesentium quis quasi, laborum eum, officiis quo at, vitae pariatur dolor facere! Nam facilis optio placeat, minima illo consequuntur quae.
             </p>
             
 
         </section>
 
-        <h2>skills</h2>
+        <h2>Skills</h2>
+        <ul>
+            <li>Project Management</li>
+            <li>Self Motivated</li>
+            <li>Responsiblity</li>
+            <li>Problem Solving Abilities</li>
+            <li>Time Management</li>
+        </ul>
+
         <h3>I have experience with</h3>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
+            <li>Google Suite</li>
+            <li>Microsoft</li>
         </ul>
     
 
@@ -65,11 +130,12 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati nisi enim ex ipsam magnam cumque, aspernatur culpa veritatis quasi, illo vero laboriosam sapiente iusto cupiditate quaerat sunt vitae labore voluptatibus.
         </p>
         
-
+ 
     
     </section>
 
     </main>
+
     <footer class="centered">
         Connect with me on
         <a href="https://www.linkedin.com/in/chamberlee-degraaff-860789292/ target="_blank" rel="noopener noreferrer">
@@ -77,5 +143,8 @@
     </a>
     </footer>
     
+    
+<script src="index.js"></script>
+
 </body>
 </html>
